@@ -1,0 +1,24 @@
+mlflow:
+  tracking-server: 'dagshub'
+  dagshub:
+    - repo-owner: 'K14aNB'
+    - experiment-name: 'Titanic-Kaggle-Competition'
+
+notebooks:
+  Titanic-Kaggle-Competition-EDA:
+    data:
+      - source: 'kaggle-competition'
+      - data-src-path: 'titanic'
+    outputs:
+      - nb-html-preview: 'true'
+      - py-percent-script: 'true'
+      - output-path: 'Notebooks'
+
+  Titanic-Kaggle-Competition-Submission:
+    data:
+      - source: 'kaggle-competition'
+      - data-src-path: 'titanic'
+    outputs:
+      - nb-html-preview: 'true'
+      - py-percent-script: 'true'
+      - output-path: 'Notebooks'
