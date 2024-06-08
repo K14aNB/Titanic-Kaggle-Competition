@@ -19,6 +19,6 @@ notebooks:
       - source: 'kaggle-competition'
       - data-src-path: 'titanic'
     outputs:
-      - nb-html-preview: 'true'
+      - nb-html-preview: 'false'
       - py-percent-script: 'true'
       - output-path: 'Notebooks'
